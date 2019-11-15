@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Management Resiko</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_ckk">Cakupan, konteks dan Kriteria</string>
+    <string name="menu_ir">Identifikasi Risiko</string>
+    <string name="menu_ar">Analisis Risiko</string>
+    <string name="menu_er">Evaluasi Risiko</string>
+    <string name="menu_tr">Treatmen Risiko</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+    <string-array name="kelengkapan">
+        <item>Dokumen Lengkap</item>
+        <item>Dokumen telah dipenuhi hampir seluruhnya</item>
+        <item>Dokumen yang paling penting dipenuhi</item>
+        <item>Dokumen baru terpenuhi pada tingkatan tertentu</item>
+        <item>Hampir tidak ada dokumen tidak tersedia</item>
+    </string-array>
+
+    <string-array name="kesesuaian">
+        <item>Sesuai</item>
+        <item>Hampir Sesuai</item>
+        <item>Hal-hal yang penting telah terpenuhi</item>
+        <item>Kesesuaian baru dalam hal tertentu saja, namun bukan merupakan yang penting</item>
+        <item>Tidak sesuai</item>
+    </string-array>
+</resources>
