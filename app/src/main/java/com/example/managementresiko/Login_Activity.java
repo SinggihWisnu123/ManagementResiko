@@ -119,7 +119,7 @@ public class Login_Activity extends AppCompatActivity {
                         session.setLogin(true);
 
                             // Now store the user in SQLite
-                            String username = jObj.getString("iduser");
+                            String username = jObj.getString("no_surveyor");
                             String nama = jObj.getString("nama");
 
                             Log.d("message",nama);

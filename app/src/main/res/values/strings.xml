@@ -15,6 +15,16 @@
     <string name="menu_er">Evaluasi Risiko</string>
     <string name="menu_tr">Treatmen Risiko</string>
 
+    <string name="menu_PSO">Personil dan Struktur Organisasi</string>
+    <string name="menu_SK">Sistem Komunikasi</string>
+    <string name="menu_JIDKD">Jalur Informasi dan Deklarasi Keadaan Darurat</string>
+    <string name="menu_RPKD">Response Penanggulangan Keadaan Darurat</string>
+    <string name="menu_PKL">Pos Komando Lapangan</string>
+    <string name="menu_PEKD">Penanganan Eskalasi Keadaan Darurat</string>
+    <string name="menu_PR">Pemberhentian Respon</string>
+    <string name="menu_PP">Peralatan dan Perlengkapan</string>
+    <string name="menu_LKD">Latihan Kondisi Darurat</string>
+
     <string name="register">REGISTER</string>
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
@@ -36,4 +46,7 @@
         <item>Kesesuaian baru dalam hal tertentu saja, namun bukan merupakan yang penting</item>
         <item>Tidak sesuai</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

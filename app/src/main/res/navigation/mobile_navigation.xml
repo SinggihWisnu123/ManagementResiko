@@ -40,4 +40,51 @@
         android:name="com.example.managementresiko.ui.send.SendFragment"
         android:label= "@string/menu_tr"
         tools:layout="@layout/fragment_send" />
+
+    <!--Fragment Prosedure-->
+    <fragment
+        android:id="@+id/nav_PSO"
+        android:name="com.example.managementresiko.prosedur.Personil"
+        android:label= "@string/menu_PSO"
+        tools:layout="@layout/fragment_personil" />
+    <fragment
+        android:id="@+id/nav_SK"
+        android:name="com.example.managementresiko.prosedur.SistemKominikasi"
+        android:label= "@string/menu_SK"
+        tools:layout="@layout/fragment_sistem_kominikasi" />
+    <fragment
+        android:id="@+id/nav_JIDKD"
+        android:name="com.example.managementresiko.prosedur.JalurInformasi"
+        android:label= "@string/menu_JIDKD"
+        tools:layout="@layout/fragment_jalur_informasi" />
+    <fragment
+        android:id="@+id/nav_RPKD"
+        android:name="com.example.managementresiko.prosedur.ResponsePenanggulangan"
+        android:label= "@string/menu_RPKD"
+        tools:layout="@layout/fragment_response_penanggulangan" />
+    <fragment
+        android:id="@+id/nav_PKL"
+        android:name="com.example.managementresiko.prosedur.PoskomandoLapangan"
+        android:label= "@string/menu_PKL"
+        tools:layout="@layout/fragment_poskomando_lapangan" />
+    <fragment
+        android:id="@+id/nav_PEKD"
+        android:name="com.example.managementresiko.prosedur.PenangananEskalasi"
+        android:label= "@string/menu_PEKD"
+        tools:layout="@layout/fragment_penanganan_eskalasi" />
+    <fragment
+        android:id="@+id/nav_PR"
+        android:name="com.example.managementresiko.prosedur.PemberhentianRespon"
+        android:label= "@string/menu_PR"
+        tools:layout="@layout/fragment_pemberhentian_respon" />
+    <fragment
+        android:id="@+id/nav_PP"
+        android:name="com.example.managementresiko.prosedur.PeralatanPerlengkapan"
+        android:label= "@string/menu_PP"
+        tools:layout="@layout/fragment_peralatan_perlengkapan" />
+    <fragment
+        android:id="@+id/nav_LKD"
+        android:name="com.example.managementresiko.prosedur.LatihanKondisi"
+        android:label= "@string/menu_LKD"
+        tools:layout="@layout/fragment_latihan_kondisi" />
 </navigation>

@@ -3,6 +3,7 @@
     package="com.example.managementresiko">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
-        <activity android:name=".DashboardActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ProsedurActivity"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Login_Activity"
             android:theme="@style/AppTheme.NoActionBar" />
