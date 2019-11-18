@@ -53,6 +53,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c51_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -64,6 +65,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c51_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -76,6 +78,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/c51_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -120,16 +123,10 @@
                     android:layout_height="match_parent"
                     android:paddingBottom="20dp"
                     android:textSize="18dp"
-                    android:text="Apakah prosedur mengatur tentang kriteria-kriteria terkait pemenuhan pemberhentian respon:"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingBottom="20dp"
-                    android:textSize="18dp"
-                    android:textAlignment="viewStart"
-                    android:text="a) Potensi bahaya sangat kecil atau telah hilang"
-                    android:gravity="start" />
+                    android:text="Apakah prosedur mengatur tentang kriteria-kriteria terkait pemenuhan pemberhentian respon:
+\n a) Potensi bahaya sangat kecil atau telah hilang
+\n b) OSC, Site Management dan Line Management telah sepakat untuk menghentikan penanganan keadaan darurat
+\n c) Rapat evaluasi kejadian untuk semua pembelajaran paska kejadian dan pengkinian prosedur preventif/mitigasi telah dicatat dan dilakukan"/>
                 <LinearLayout
                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
@@ -142,6 +139,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c52_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -153,6 +151,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c52_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -165,112 +164,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:inputType="textMultiLine"
-                        android:lines="8"
-                        android:minLines="6"
-                        android:gravity="top|left"
-                        android:maxLines="10"
-                        android:scrollbars="vertical"/>
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingBottom="20dp"
-                    android:textSize="18dp"
-                    android:textAlignment="viewStart"
-                    android:text="b) OSC, Site Management dan Line Management telah sepakat untuk menghentikan penanganan keadaan darurat"
-                    android:gravity="start" />
-                <LinearLayout
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Kelengkapan Dokumen"/>
-
-                    <Spinner
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:entries="@array/kelengkapan"/>
-
-                    <TextView
-                        android:layout_marginTop="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Kesesuaian Dokumen"/>
-
-                    <Spinner
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:entries="@array/kesesuaian"/>
-                </LinearLayout>
-                <com.google.android.material.textfield.TextInputLayout
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Deskripsi">
-
-                    <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:inputType="textMultiLine"
-                        android:lines="8"
-                        android:minLines="6"
-                        android:gravity="top|left"
-                        android:maxLines="10"
-                        android:scrollbars="vertical"/>
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingBottom="20dp"
-                    android:textSize="18dp"
-                    android:textAlignment="viewStart"
-                    android:text="c) Rapat evaluasi kejadian untuk semua pembelajaran paska kejadian dan pengkinian prosedur preventif/mitigasi telah dicatat dan dilakukan"
-                    android:gravity="start" />
-                <LinearLayout
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Kelengkapan Dokumen"/>
-
-                    <Spinner
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:entries="@array/kelengkapan"/>
-
-                    <TextView
-                        android:layout_marginTop="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Kesesuaian Dokumen"/>
-
-                    <Spinner
-                        android:layout_marginBottom="10dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:entries="@array/kesesuaian"/>
-                </LinearLayout>
-                <com.google.android.material.textfield.TextInputLayout
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Deskripsi">
-
-                    <EditText
+                        android:id="@+id/c52_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -329,6 +223,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c53_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -340,6 +235,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c53_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -352,6 +248,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/c53_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -410,6 +307,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c54_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -421,6 +319,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/c54_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -433,6 +332,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/c54_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -447,7 +347,16 @@
 
         </androidx.cardview.widget.CardView>
 
-
+        <Button
+            android:id="@+id/btn_simpan"
+            style="@style/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:text="SIMPAN"
+            android:layout_gravity="bottom"/>
     </LinearLayout>
 
 </ScrollView>

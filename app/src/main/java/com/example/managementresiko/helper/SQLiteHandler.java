@@ -18,7 +18,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     // Database Name
-    private static final String DATABASE_NAME = "db_verifikasi";
+    private static final String DATABASE_NAME = "db_verifikasi1";
 
     // Login table name
     private static final String TABLE_USER = "user";

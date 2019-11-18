@@ -54,6 +54,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e1_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -65,6 +66,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e1_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -77,6 +79,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/e1_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -134,6 +137,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e2_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -145,6 +149,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e2_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -157,6 +162,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/e2_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -213,6 +219,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e3_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -224,6 +231,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e3_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -236,6 +244,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/e3_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -292,6 +301,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e4_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -303,6 +313,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e4_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -315,6 +326,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/e4_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -371,6 +383,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e5_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -382,6 +395,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e5_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -394,6 +408,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/e5_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -450,6 +465,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e6_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -461,6 +477,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e6_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -473,6 +490,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/e6_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -529,6 +547,7 @@
                         android:text="Kelengkapan Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e7_kelengkapan"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/kelengkapan"/>
@@ -540,6 +559,7 @@
                         android:text="Kesesuaian Dokumen"/>
 
                     <Spinner
+                        android:id="@+id/e7_kesesuaian"
                         android:layout_marginBottom="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -552,6 +572,7 @@
                     android:hint="Deskripsi">
 
                     <EditText
+                        android:id="@+id/e7_deskripsi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:inputType="textMultiLine"
@@ -565,7 +586,27 @@
 
         </androidx.cardview.widget.CardView>
 
+        <Button
+            android:id="@+id/btn_simpan"
+            style="@style/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="SIMPAN"
+            android:layout_gravity="bottom"/>
 
+        <Button
+            android:id="@+id/btn_selesai"
+            style="@style/selesaiButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:text="SELESAI"
+            android:layout_gravity="bottom"/>
     </LinearLayout>
 
 </ScrollView>

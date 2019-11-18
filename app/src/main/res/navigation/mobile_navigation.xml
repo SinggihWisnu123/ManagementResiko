@@ -43,6 +43,11 @@
 
     <!--Fragment Prosedure-->
     <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.managementresiko.ui.home.HomeFragment"
+        android:label= "@string/menu_profile"
+        tools:layout="@layout/fragment_home" />
+    <fragment
         android:id="@+id/nav_PSO"
         android:name="com.example.managementresiko.prosedur.Personil"
         android:label= "@string/menu_PSO"

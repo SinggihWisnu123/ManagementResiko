@@ -119,13 +119,13 @@ public class Login_Activity extends AppCompatActivity {
                         session.setLogin(true);
 
                             // Now store the user in SQLite
-                            String username = jObj.getString("no_surveyor");
+                            String kd_surveyor = jObj.getString("no_surveyor");
                             String nama = jObj.getString("nama");
 
                             Log.d("message",nama);
 
                             // Inserting row in users table
-                            db.addUser(nama, username);
+                            db.addUser(nama, kd_surveyor);
 
 
                         // Launch main activity
